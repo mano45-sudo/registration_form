@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>School Registration Form</title>
+
+</head>
+
+<body>
+
+
+
+    <h1 align="center">Student Registration Form</h1>
+
+    <p align="center">Academic Year 2025-2026</p>
+
+    <hr>
+
+
+
+    <form>
+
+        
+
+        <center>
+
+            
+
+            <table width="80%">
+
+                
+
+                <tr>
+
+                    <td colspan="2"><h2>1. Student Details</h2></td>
+
+                </tr>
+
+                
+
+                <tr>
+
+                    <td align="left" width="40%">Full Name:</td>
+
+                    <td align="left" width="60%">
+
+                        <input type="text" name="student_name" size="30" required>
+
+                    </td>
+
+                </tr>
+
+                
+
+                <tr>
+
+                    <td align="left">Date of Birth (DD/MM/YYYY):</td>
+
+                    <td align="left">
+
+                        <input type="text" name="dob_text" size="30" required>
+
+                    </td>
+
+                </tr>
+
+                
+
+                <tr>
+
+                    <td align="left" valign="top">Residential Address:</td>
+
+                    <td align="left">
+
+                        <textarea name="address" rows="3" cols="35" required></textarea>
+
+                    </td>
+
+                </tr>
+
+                
+
+                <tr>
+
+                    <td align="left">Aadhaar No. (Optional):</td>
+
+                    <td align="left">
+
+                        <input type="text" name="aadhaar_num" size="30" maxlength="12">
+
+                    </td>
+
+                </tr>
+
+
+
+                <tr>
+
+                    <td colspan="2"><hr><h2>2. Parent Information</h2></td>
+
+                </tr>
+
+
+
+                <tr>
+
+                    <td align="left">Father's Full Name:</td>
+
+                    <td align="left">
+
+                        <input type="text" name="father_name" size="30" required>
+
+                    </td>
+
+                </tr>
+
+                <tr>
+
+                    <td align="left">Father's Occupation:</td>
+
+                    <td align="left">
+
+                        <input type="text" name="father_occupation" size="30">
+
+                    </td>
+
+                </tr>
+
+                
+
+                <tr>
+
+                    <td align="left">Mother's Full Name:</td>
+
+                    <td align="left">
+
+                        <input type="text" name="mother_name" size="30" required>
+
+                    </td>
+
+                </tr>
+
+                <tr>
+
+                    <td align="left">Mother's Occupation:</td>
+
+                    <td align="left">
+
+                        <input type="text" name="mother_occupation" size="30">
+
+                    </td>
+
+                </tr>
+
+                
+
+                <tr>
+
+                    <td align="left">Primary Mobile Number:</td>
+
+                    <td align="left">
+
+                        <input type="text" name="primary_contact" size="30" maxlength="10" required>
+
+                    </td>
+
+                </tr>
+
+                
+
+                <tr>
+
+                    <td colspan="2"><hr><h2>3. Academic Choice</h2></td>
+
+                </tr>
+
+
+
+                <tr>
+
+                    <td align="left">Registration Class:</td>
+
+                    <td align="left">
+
+                        <select name="grade_select" required>
+
+                            <option value="">Select Class</option>
+
+                            <option value="1">Class I</option>
+
+                            <option value="5">Class V</option>
+
+                            <option value="9">Class IX</option>
+
+                        </select>
+
+                    </td>
+
+                </tr>
+
+                
+
+                <tr>
+
+                    <td align="left">Previous School Name:</td>
+
+                    <td align="left">
+
+                        <input type="text" name="prev_school" size="30">
+
+                    </td>
+
+                </tr>
+
+                
+
+                <tr>
+
+                    <td align="left">Last Class Studied:</td>
+
+                    <td align="left">
+
+                        <input type="text" name="last_class" size="30" placeholder="e.g. Class IV">
+
+                    </td>
+
+                </tr>
+
+                
+
+                <tr>
+
+                    <td align="left">School Transport Required?</td>
+
+                    <td align="left">
+
+                        <input type="radio" name="transport" value="yes"> Yes
+
+                        <input type="radio" name="transport" value="no" checked> No
+
+                    </td>
+
+                </tr>
+
+
+
+                <tr>
+
+                    <td colspan="2"><hr></td>
+
+                </tr>
+
+                
+
+                <tr>
+
+                    <td colspan="2" align="center">
+
+                        <input type="checkbox" name="declaration" required> 
+
+                        I confirm details are true and accurate.
+
+                    </td>
+
+                </tr>
+
+
+
+                <tr>
+
+                    <td colspan="2" align="center">
+
+                        <br>
+
+                        <input type="submit" value="Submit Registration">
+
+                        <input type="reset" value="Clear Form">
+
+                    </td>
+
+                </tr>
+
+
+
+            </table>
+
+            
+
+        </center>
+
+        
+
+    </form>
+
+    
+
+</body>
+
+</html> 
